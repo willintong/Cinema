@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaWAL.Android", "CinemaWAL.Android\CinemaWAL.Android.csproj", "{8090A686-5D08-4680-981C-5C972D9D45B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaWAL", "CinemaWAL\CinemaWAL.csproj", "{DA03841D-5287-4513-86B0-30092C76F7F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5DE02F85-4C95-4B5F-A408-E032D094544D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaWAL.Domain", "..\CinemaWAL.Domain\CinemaWAL.Domain.csproj", "{B14445B0-7C52-48CC-89C1-D71CFF9702D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8090A686-5D08-4680-981C-5C972D9D45B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA03841D-5287-4513-86B0-30092C76F7F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B14445B0-7C52-48CC-89C1-D71CFF9702D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14445B0-7C52-48CC-89C1-D71CFF9702D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14445B0-7C52-48CC-89C1-D71CFF9702D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14445B0-7C52-48CC-89C1-D71CFF9702D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B14445B0-7C52-48CC-89C1-D71CFF9702D0} = {5DE02F85-4C95-4B5F-A408-E032D094544D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F74979-C7B6-4972-B68C-746C291DAD04}
+	EndGlobalSection
+EndGlobal

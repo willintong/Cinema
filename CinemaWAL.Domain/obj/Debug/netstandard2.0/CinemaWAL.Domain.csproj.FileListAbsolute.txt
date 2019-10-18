@@ -1,0 +1,7 @@
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\bin\Debug\netstandard2.0\CinemaWAL.Domain.deps.json
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\bin\Debug\netstandard2.0\CinemaWAL.Domain.dll
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\bin\Debug\netstandard2.0\CinemaWAL.Domain.pdb
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\obj\Debug\netstandard2.0\CinemaWAL.Domain.AssemblyInfoInputs.cache
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\obj\Debug\netstandard2.0\CinemaWAL.Domain.AssemblyInfo.cs
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\obj\Debug\netstandard2.0\CinemaWAL.Domain.dll
+C:\Users\willintong.lopez\Source\Repos\CinemaWAL.Domain\obj\Debug\netstandard2.0\CinemaWAL.Domain.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:i18n="clr-namespace:CinemaWAL.Helper"
+             mc:Ignorable="d"
+             x:Class="CinemaWAL.Views.ResumenPage"
+             Title="{i18n:Translate Resumen}">
+    <Grid>
+        <Grid x:Name="gridPelicula" Grid.Row="0">
+            <Image Source="{Binding Imagen}" Grid.Row="0" Grid.ColumnSpan="2" />
+            <Label Text="Pelicula" Grid.Column="0" Grid.Row="1" />
+            <Label Text="{i18n:Translate Titulo}" Grid.Column="0" Grid.Row="2" />
+            <Label Text="{Binding Titulo}" Grid.Column="1" Grid.Row="2" />
+            <Label Text="{i18n:Translate Fecha}" Grid.Column="0" Grid.Row="3" />
+            <Label Text="{Binding FechaEstreno}" Grid.Column="1" Grid.Row="3" />
+        </Grid>
+        <Grid x:Name="gridFuncion" Grid.Row="1">
+            <Label Text="Funcion" Grid.Column="0" Grid.Row="0" />
+            <Label Text="{i18n:Translate Cinema}" Grid.Column="0" Grid.Row="1" />
+            <Label Text="{Binding Funciones.Cinema}" Grid.Column="1" Grid.Row="1" />
+            <Label Text="{i18n:Translate Sala}" Grid.Column="0" Grid.Row="2" />
+            <Label Text="{Binding Funciones.Sala}" Grid.Column="1" Grid.Row="2" />
+            <Label Text="{i18n:Translate Ciudad}" Grid.Column="0" Grid.Row="3" />
+            <Label Text="{Binding Funciones.Ciudad}" Grid.Column="1" Grid.Row="3" />
+            <Label Text="Tiquetes" Grid.Column="0" Grid.Row="4" />
+            <Label Text="{i18n:Translate Precio}" Grid.Column="0" Grid.Row="5" />
+            <Label Text="{Binding Tiquetes.Precio}" Grid.Column="1" Grid.Row="5" />
+            <Label Text="{i18n:Translate Cantidad}" Grid.Column="0" Grid.Row="6" />
+            <Label x:Name="Cantidad" Text="" Grid.Column="1" Grid.Row="6" />
+            <Label Text="{i18n:Translate TotalAPagar}" Grid.Column="0" Grid.Row="7" />
+            <Label x:Name="TotalPagar" Text="" Grid.Column="1" Grid.Row="7" />
+            <Button Style="{StaticResource Finalizar}" Grid.ColumnSpan="2" Grid.Row="7" Clicked="Finalizar_Click" />
+        </Grid>
+    </Grid>
+</ContentPage>

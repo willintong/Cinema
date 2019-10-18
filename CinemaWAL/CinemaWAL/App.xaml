@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:i18n="clr-namespace:CinemaWAL.Helper"
+             mc:Ignorable="d"
+             x:Class="CinemaWAL.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="Finalizar">
+                <Setter Property="Text" Value="{i18n:Translate FinalizarCompra}"/>
+                <Setter Property="VerticalOptions" Value="EndAndExpand"/>
+                <Setter Property="CornerRadius" Value="15"/>
+           
+                <Setter Property="BackgroundColor" Value="LightBlue"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
